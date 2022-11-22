@@ -1,0 +1,8 @@
+name: IARepl
+author: Th3Shadowbroker
+description: Replication plugin for an issue with ItemsAdder.
+version: 1.0.0
+api-version: 1.18
+depend:
+  - ItemsAdder
+main: org.th3shadowbroker.repl.IARepl

@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'org.th3shadowbroker.repl'
+version '1.0.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url = uri("https://repo.papermc.io/repository/maven-public/") }
+}
+
+dependencies {
+    compileOnly "io.papermc.paper:paper-api:$PAPER_VERSION"
+}

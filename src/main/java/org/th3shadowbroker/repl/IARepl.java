@@ -20,6 +20,7 @@ public class IARepl extends JavaPlugin implements Listener {
 
         // Cancel original event
         event.setCancelled(true);
+        getLogger().info("Block break cancelled!");
     }
 
 }
